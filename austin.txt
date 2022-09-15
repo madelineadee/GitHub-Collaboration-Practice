@@ -1,0 +1,22 @@
+(base) austins-air:~ austinbiehl$ git clone 
+https://github.com/madelineadee/GitHub-Collaboration-Practice.git
+Cloning into 'GitHub-Collaboration-Practice'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+(base) austins-air:~ austinbiehl$ cd GitHub-Collaboration-Practice/
+(base) austins-air:GitHub-Collaboration-Practice austinbiehl$ git 
+switch -c Austin_branch
+Switched to a new branch 'Austin_branch'
+(base) austins-air:GitHub-Collaboration-Practice austinbiehl$ ls
+README.md	group.txt
+(base) austins-air:GitHub-Collaboration-Practice austinbiehl$ nano 
+group.txt
+(base) austins-air:GitHub-Collaboration-Practice austinbiehl$ 
+(base) austins-air:GitHub-Collaboration-Practice austinbiehl$ git add *
+(base) austins-air:GitHub-Collaboration-Practice austinbiehl$ git 
+commit -m “Austin editing”
+(base) austins-air:GitHub-Collaboration-Practice austinbiehl$ git push 
+-u origin Austin_branch
