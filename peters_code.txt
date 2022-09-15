@@ -1,0 +1,93 @@
+
+
+user@DESKTOP-B6BCT01 MINGW64 ~ (peter_branch)
+$ nano group.txt
+
+user@DESKTOP-B6BCT01 MINGW64 ~ (peter_branch)
+$ nano group
+
+user@DESKTOP-B6BCT01 MINGW64 ~ (peter_branch)
+$ pwd
+/c/Users/user
+
+user@DESKTOP-B6BCT01 MINGW64 ~ (peter_branch)
+$ cd /c/Users/user/Desktop/HitHub-Collaboration-Practice
+bash: cd: /c/Users/user/Desktop/HitHub-Collaboration-Practice: No such file or directory
+
+user@DESKTOP-B6BCT01 MINGW64 ~ (peter_branch)
+$ nano group.txt
+
+user@DESKTOP-B6BCT01 MINGW64 ~ (peter_branch)
+$ cd /c/Users/user/Desktop/HitHub-Collaboration-Practice
+bash: cd: /c/Users/user/Desktop/HitHub-Collaboration-Practice: No such file or directory
+
+user@DESKTOP-B6BCT01 MINGW64 ~ (peter_branch)
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Computational-Social-Science-Training-Program/
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{8c07aa97-0ea4-11ed-a766-9d6b0b6511c7}.TM.blf
+ NTUSER.DAT{8c07aa97-0ea4-11ed-a766-9d6b0b6511c7}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{8c07aa97-0ea4-11ed-a766-9d6b0b6511c7}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ anaconda3/
+ group.txt
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ project_1/
+ readme.md
+ test/
+
+user@DESKTOP-B6BCT01 MINGW64 ~ (peter_branch)
+$ nano group.txt
+
+user@DESKTOP-B6BCT01 MINGW64 ~ (peter_branch)
+$ pwd
+/c/Users/user
+
+user@DESKTOP-B6BCT01 MINGW64 ~ (peter_branch)
+$ cd /c/Users/user/Desktop/GitHub-Collaboration-Practice
+
+user@DESKTOP-B6BCT01 MINGW64 ~/Desktop/GitHub-Collaboration-Practice (peter_branch)
+$ nano group.txt
+
+user@DESKTOP-B6BCT01 MINGW64 ~/Desktop/GitHub-Collaboration-Practice (peter_branch)
+$ touch peters_code.txt
+
+user@DESKTOP-B6BCT01 MINGW64 ~/Desktop/GitHub-Collaboration-Practice (peter_branch)
+$ nano peters_code.txt
+
+user@DESKTOP-B6BCT01 MINGW64 ~/Desktop/GitHub-Collaboration-Practice (peter_branch)
+$
+
+git add *
+
+git commit -m "adding my text information
+
+git push -u origin peter_branch 
