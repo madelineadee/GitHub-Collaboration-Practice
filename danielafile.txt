@@ -1,0 +1,19 @@
+Last login: Sat Sep 10 12:47:05 on ttys001
+(base) daniela_perez@Danielas-MacBook-Air ~ % cd Documents
+(base) daniela_perez@Danielas-MacBook-Air Documents % mkdir CSS
+(base) daniela_perez@Danielas-MacBook-Air Documents % cd CSS
+(base) daniela_perez@Danielas-MacBook-Air CSS % git clone https://github.com/madelineadee/GitHub-Collaboration-Practice.git
+Cloning into 'GitHub-Collaboration-Practice'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+(base) daniela_perez@Danielas-MacBook-Air CSS % cd GitHub-Collaboration-Practice 
+(base) daniela_perez@Danielas-MacBook-Air GitHub-Collaboration-Practice % git checkout -b daniela_branch
+Switched to a new branch 'daniela_branch'
+(base) daniela_perez@Danielas-MacBook-Air GitHub-Collaboration-Practice % vim group.txt
+(base) daniela_perez@Danielas-MacBook-Air GitHub-Collaboration-Practice % touch danielafile.txt
+git add *
+git commit -m"adding my details and the text file"
+git push -u origin daniela_branch
