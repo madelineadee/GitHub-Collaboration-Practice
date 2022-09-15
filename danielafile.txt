@@ -15,5 +15,5 @@ Switched to a new branch 'daniela_branch'
 (base) daniela_perez@Danielas-MacBook-Air GitHub-Collaboration-Practice % vim group.txt
 (base) daniela_perez@Danielas-MacBook-Air GitHub-Collaboration-Practice % touch danielafile.txt
 git add *
-git commit -m"adding my details and text file with my code"
+git commit -m"adding my details and the text file"
 git push -u origin daniela_branch
